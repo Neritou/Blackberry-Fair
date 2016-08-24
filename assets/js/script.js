@@ -5,7 +5,7 @@
 
 $(window).load(function () {
     $('#preloader').delay(350).fadeOut('slow', function () {
-        //$('.profile-page, .whatson-page, .service-page, .contact-page').hide();
+        //$('.profile-page, .whatson-page, .previously-page, .contact-page').hide();
     });
 });
 
@@ -109,7 +109,7 @@ $(document).ready(function () {
 
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
-        center: new google.maps.LatLng(52.9696091, -2.6840456,15),
+        center: new google.maps.LatLng(52.969604, -2.684062),
         zoom: 16,
         scrollwheel: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -117,8 +117,8 @@ $(document).ready(function () {
     var map = new google.maps.Map(mapCanvas, mapOptions)
 
     var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(52.9696091, -2.6840456,15),
-            title:"Blackberry Fair"
+            position: new google.maps.LatLng(52.969604, -2.684062),
+            title:"Whitchurch Civic Center"
         });
 
         // To add the marker to the map, call setMap();

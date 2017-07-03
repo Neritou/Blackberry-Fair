@@ -118,7 +118,7 @@ $(document).ready(function () {
 
     var marker = new google.maps.Marker({
             position: new google.maps.LatLng(52.969604, -2.684062),
-            title:"Whitchurch Civic Center"
+            title:"Whitchurch High Street"
         });
 
         // To add the marker to the map, call setMap();
